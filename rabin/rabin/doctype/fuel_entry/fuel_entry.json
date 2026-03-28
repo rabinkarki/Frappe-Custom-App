@@ -5,19 +5,25 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "image"
+  "image",
+  "name1"
  ],
  "fields": [
   {
    "fieldname": "image",
    "fieldtype": "Attach",
    "label": "Image"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-03-28 20:53:29.511537",
+ "modified": "2026-03-28 23:28:47.757942",
  "modified_by": "Administrator",
  "module": "Rabin",
  "name": "Fuel Entry",
